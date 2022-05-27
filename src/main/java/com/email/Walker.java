@@ -120,8 +120,7 @@ public class Walker extends Thread {
 						}
 						
 						/* Borramos el historial de la maquina */
-						Statement stmt2 = connection.createStatement();
-						stmt2.execute("DELETE FROM history");
+						stmt.execute("DELETE FROM history");
 					}
 				}
 			}
