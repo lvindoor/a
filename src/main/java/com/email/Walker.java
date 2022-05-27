@@ -23,7 +23,7 @@ public class Walker extends Thread {
 		try {
 			/* Conexion MySQL */
 			Connection connection = DriverManager
-					.getConnection("jdbc:mysql://192.168.100.9:3306/db_speedy-packages?" + "user=raspberry&password=root");
+					.getConnection("jdbc:mysql://192.168.100.9:3306/db_speedy-packages?" + "autoReconnect=true&useSSL=false" + "raspberry","root");
 			Statement stmt = connection.createStatement();
 
 			while (true) { // comenzamos el hilo
