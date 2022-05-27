@@ -1,8 +1,8 @@
-/media/jalejandro_garcia/DATOS/automated-receptionist/src/main/java/com/email/Walker.java
-/media/jalejandro_garcia/DATOS/automated-receptionist/src/main/java/com/email/service/EmailService.java
-/media/jalejandro_garcia/DATOS/automated-receptionist/src/main/java/com/email/controller/EmailController.java
-/media/jalejandro_garcia/DATOS/automated-receptionist/src/main/java/com/email/model/Mail.java
-/media/jalejandro_garcia/DATOS/automated-receptionist/src/main/java/com/email/hardware/PhysicalSensor.java
-/media/jalejandro_garcia/DATOS/automated-receptionist/src/main/java/com/email/service/EmailServiceImpl.java
-/media/jalejandro_garcia/DATOS/automated-receptionist/src/main/java/com/email/Application.java
-/media/jalejandro_garcia/DATOS/automated-receptionist/src/main/java/com/email/send/SendEmail.java
+/home/jalejandro_garcia/a/src/main/java/com/email/Application.java
+/home/jalejandro_garcia/a/src/main/java/com/email/Walker.java
+/home/jalejandro_garcia/a/src/main/java/com/email/model/Mail.java
+/home/jalejandro_garcia/a/src/main/java/com/email/controller/EmailController.java
+/home/jalejandro_garcia/a/src/main/java/com/email/service/EmailServiceImpl.java
+/home/jalejandro_garcia/a/src/main/java/com/email/hardware/PhysicalSensor.java
+/home/jalejandro_garcia/a/src/main/java/com/email/send/SendEmail.java
+/home/jalejandro_garcia/a/src/main/java/com/email/service/EmailService.java
