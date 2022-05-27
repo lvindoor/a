@@ -70,10 +70,10 @@ public class Walker extends Thread {
 
 						/* Busca ordenes en la paqueteria */
 						ResultSet rs1 = stmt.executeQuery(
-								"SELECT * FROM orders"
+								"SELECT * FROM orders "
 								+ "WHERE id_user = " + id
-								+ "AND shipping_type = " + TO_PACKAGE
-								+ "AND status = " + SEND);
+								+ " AND shipping_type = " + TO_PACKAGE
+								+ " AND status = " + SEND);
 						
 						/* Obtener consulta */
 						while (rs1.next()) { // obtenemos el primer paquete
