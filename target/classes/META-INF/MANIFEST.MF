@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: automated-receptionist
+Implementation-Version: 1.0
+Built-By: jalejandro_garcia
+Implementation-Vendor-Id: com.email
+Build-Jdk: 1.8.0_292
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/automated-receptionist
+Created-By: Maven Integration for Eclipse
+
