@@ -54,10 +54,10 @@ public class Walker extends Thread {
 
 					/* Buscamos el usuario de la tarjeta */
 					ResultSet rs0 = stmt.executeQuery(
-							"SELECT * FROM cards\n"
-							+ "INNER JOIN users\n"
-							+ "ON cards.user_id = users.id\n"
-							+ "WHERE number = '" + cardNumber + "'\n"
+							"SELECT * FROM cards "
+							+ "INNER JOIN users "
+							+ "ON cards.user_id = users.id "
+							+ "WHERE number = '" + cardNumber + "'"
 							+ "AND active = " + true + "");
 					
 					/* Obtener consulta */
