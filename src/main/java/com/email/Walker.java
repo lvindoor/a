@@ -56,7 +56,7 @@ public class Walker extends Thread {
 					ResultSet rs0 = stmt.executeQuery(
 							"SELECT * FROM cards "
 							+ "INNER JOIN users "
-							+ "ON cards.user_id = users.id "
+							+ "ON user_id = users.id "
 							+ "WHERE number = '" + cardNumber + "'"
 							+ "AND active = " + true + "");
 					
