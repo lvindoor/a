@@ -63,9 +63,9 @@ public class Walker extends Thread {
 					/* Obtener consulta */
 					while (rs0.next()) {
 						/* Obtenemos datos del usuario */
-						int id = rs0.getInt("user.id");
-						String name = rs0.getString("user.name");
-						String email = rs0.getString("user.email");
+						int id = rs0.getInt("users.id");
+						String name = rs0.getString("users.name");
+						String email = rs0.getString("users.email");
 						boolean onHold = true;
 
 						/* Busca ordenes en la paqueteria */
