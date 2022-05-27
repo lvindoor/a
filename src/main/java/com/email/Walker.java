@@ -56,7 +56,7 @@ public class Walker extends Thread {
 					ResultSet rs0 = stmt.executeQuery(
 							"SELECT * FROM cards "
 							+ "INNER JOIN users "
-							+ "ON user_id = users.id "
+							+ "ON cards.user_id = users.id "
 							+ "WHERE number = '" + cardNumber + "'"
 							+ "AND active = " + true + "");
 					
@@ -71,7 +71,7 @@ public class Walker extends Thread {
 						/* Busca ordenes en la paqueteria */
 						ResultSet rs1 = stmt.executeQuery(
 								"SELECT * FROM orders "
-								+ "WHERE id_user = " + id
+								+ "WHERE user_id = " + id
 								+ " AND shipping_type = " + TO_PACKAGE
 								+ " AND status = " + SEND);
 						
