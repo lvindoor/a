@@ -12,7 +12,7 @@ try:
 	print(text)
 
 	try:
-		connection = mysql.connect( user = "root", password = "", host = "192.168.100.9", port = "3306", database = "db_speedy-packages")
+		connection = mysql.connect( user = 'raspberry', password = 'root', host = '192.168.100.9', database = 'db_speedy-packages')
 		cursor = connection.cursor()
 		print("Conexion MySQL abierta")
 		query = "INSERT INTO history (card_number) VALUES ('%i')" % id
